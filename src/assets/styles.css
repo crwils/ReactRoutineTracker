@@ -1,4 +1,52 @@
-.daily-item-list {
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.list-item {
+   padding: 5px 0;
+}
+
+.app {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.routine-box-container {
+    width: 100%;
+}
+
+.subheader {
+    margin-bottom: 1em;
+}
+
+.heading {
+    margin-bottom: 1em;
+}
+
+.list-box {
+    margin-bottom: 1em;
+}
+
+.main-box {
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 200px;
+    margin: 20px;
+}
+
+.main-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 150px;
+}
+
+.center {
+    text-align: center;
 }

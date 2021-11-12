@@ -7,13 +7,14 @@ function RoutineBox(props) {
 
 
     return (
-        <div>
+        <div className="routine-box-container">
             <Header/>
             <Date/>
-            <DailyList/>
-            <WeeklyList/>
-            <MonthlyList/>
-            
+                <div className="main-list-container">
+                    <DailyList/>
+                    <WeeklyList/>
+                    <MonthlyList/>
+                </div>
         </div>
     );
 }
