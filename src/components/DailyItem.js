@@ -6,7 +6,7 @@ function DailyItem(props) {
                 return (
                 <div className="list-item" key={key}>
                     <label htmlFor={item}>{item}</label>
-                    <input type="checkbox" />
+                    {props.waterConsumption(item)}
                 </div>
                 )
             })
